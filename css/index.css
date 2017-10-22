@@ -1,0 +1,393 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-17 15:13:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-20 22:06:39
+*/
+@import url('base.css');
+
+/* about开始 */
+.about{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	height: auto;
+}
+.about-we{
+	font-size: 24px;
+	color: #0D0D0D;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 36px;
+}
+.about-we1{
+	font-size: 14px;
+	color: #55575d;
+	line-height: 28px;
+	margin-bottom: 24.5px;
+	text-align: center;
+}
+
+.about-tu{
+	margin:auto;
+	/* background: red; */
+}
+
+.about-word{
+	/* background: yellowgreen; */
+}
+.about-word h4{
+	font-size: 22px;
+	color: #111;/* 
+	margin-bottom: 10px; */
+	line-height: 44px;
+}
+.about-word p{
+	font-size:16px; 
+	/* margin-bottom: 24.5px; */
+	line-height: 30px;
+}
+/* about结束 */
+/* our开始 */
+.our{
+	padding-top: 105px;
+	padding-bottom: 105px;
+	height: 0 auto;
+	background: #F3F3F4;
+}
+
+.our-box1{
+	background:#fff;
+	padding: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	transition: all 1s;
+}
+.our-icon .iconfont{
+	color: #111;
+	font-size: 34px;
+}
+.our-word{
+	font-size: 26px;
+	text-align: center;
+	color: #fff;
+	/* text-align: center; */
+}
+.our-word h3{
+	margin-bottom: 10px;
+	color: #111;
+}
+.our-word p{
+	font-size: 14px;
+	color: #fff;
+	line-height:24px;
+	color: #111;
+}
+.our-box1:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+/* our结束 */
+/* our二部开始 */
+.about-we2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.about-we2 li{
+	padding: 0 10px;
+}
+.about-we2 li a{
+	color: #999;
+}
+.about-we2 li:first-child a{
+	color: #111;
+}
+.about-we2 li:nth-child(1)~li:hover a{
+	color: #111;
+}
+.our1-box1{
+	background:#fff;
+	margin-top: 15px;
+	text-align: center;
+	transition: all 1s;
+	position: relative;
+}
+/* .our1-box1:nth-child(2){
+	padding: 0;
+} */
+.our1-box2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/* background: #111; */
+	background-color: rgba(0,0,0,0.6);
+	transition: all 1s;
+	text-align: center;
+}
+.our1-icon{
+	width:46px;
+	height:46px;
+	margin: 0 auto;
+	border-radius: 50%;
+	/* background: #fff; */
+	display: block;
+	color: red;
+}
+.our1-icon .iconfont{
+	font-size: 44px;
+	line-height: 44px;
+	text-align: center;
+	/* color: red; */
+	transition: all 0.5s;
+}
+.our1-text{
+	padding: 20px 0;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	transition: all 1s;
+}
+.our1-text1{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	transition: all 1s;
+}
+
+.our1-icon:hover{
+	/* background: #00BFFF; */
+	color: orange;
+
+}
+.our1-box2:hover{
+	opacity: 1;
+	transition: all 1s;
+}
+.our1-box3{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.our1-box2:hover .our1-text{
+	transform: rotateY(360deg);
+}
+.our1-box2:hover .our1-text1{
+	transform: rotateX(720deg);
+}
+/* our二部结束 */
+/* 底部开始 */
+.footer-su{
+	height: auto;
+}
+.foot-su{
+	height: auto;
+}
+.foot-su input{
+	width: 100%;
+	border: 1px solid #e4e7e9;
+	border-radius: 3px;
+	outline: none;
+	font-size: 15px;
+	line-height: 24px;
+	color: #a3a8ab;
+	margin-bottom: 20px;
+	padding: 10px 0 10px 15px;
+}
+.foot-su textarea{
+    width: 100%;
+    /* text-transform: none; */
+    border: 1px solid #e4e7e9;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    padding: 10px 0 0 15px;
+    outline: none;
+}
+.footer-su .foot-su .tijiao{
+	width: auto;
+	padding: 12px 18px;
+	margin-top: 20px;
+	cursor: pointer;
+	background: #111;
+}
+/* .foot-text{
+	height: auto;
+} */
+.foot-text{
+	height: auto;
+}
+.foot-box{
+	height: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.foot-box-icon{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #f6f6f6;
+    color: #55575d;
+    font-size: 36px;
+    text-align: center;
+    margin-right: 15px;
+    /* line-height: 60px; */
+	float: left;
+}
+.foot-box-word{
+	font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #959595;
+    /* float: right; */
+    display: block;
+}
+/* 底部结束 */
+/* 最底部开始 */
+.dibu{
+	background-color: #0d1218;
+    color: #fff;
+    padding: 42px 0px;
+    position: relative;
+}
+.dibu-left p{
+	color: #fff;
+    margin: 0px;
+    padding: 6px 0px;
+}
+.dibu-right ul{
+	float: right;
+	margin: 0px;
+}
+.dibu-right ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.dibu-right ul li a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    color: #252525;
+    height: 36px;
+    width: 36px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+.dibu-right ul li a:hover{
+	background: #00BFFF;
+	color:#fff;
+}
+.pingxing{
+	position: absolute;
+    right: 50%;
+    top: 0;
+    transform: translateX(50%) translateY(-50%) rotate(45deg);
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    height: 36px;
+    width: 36px;
+    background-color: #0d1218;
+    text-align: center;
+    transition: 0.5s;
+}
+.pingxing:hover{
+	background:#00BFFF;
+	color: #111;
+}
+.pingxing .iconfont{
+	transform:rotate(-45deg);
+	display: block;
+}
+/* 最底部借宿 */
+@media screen and (min-width:1200px){
+
+	.about-tu img{
+		display: block;
+		width: 565px;
+		height: 344px;
+	}
+	.our1-box1 img{
+		display: block;
+		width: 370px;
+		height: 280px;
+	}
+	.our1-box3{
+		padding-top: 70px;
+	}
+}
+	.dibu-left p{
+	    font-size: 16px;
+	}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+	.about-tu img{
+		display: block;
+		width: 455px;
+		height: 282px;
+	}
+	.our1-box1 img{
+		display: block;
+		width: 293px;
+		height: 230px;
+	}
+	.our1-box3{
+		padding-top: 55px;
+	}
+	.dibu-left p{
+	    font-size: 16px;
+	}
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+	.about-tu img{
+		display: block;
+		width: 720px;
+		height: 447px;
+		margin-bottom: 30px;
+	}
+	.our1-box1 img{
+		display: block;
+		width: 220px;
+		height: 174px;
+	}
+	.our1-box3{
+		padding-top: 30px;
+	}
+	.dibu-left p{
+	    font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	
+	.about-tu img{
+		display: block;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 30px;
+	}
+	.our1-box1 img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.our1-box3{
+		padding-top: 90px;
+	}
+	.dibu-left p{
+	    font-size: 12px;
+	}
+}
